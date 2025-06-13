@@ -9,16 +9,14 @@ body {
     height: 100%;
 }
 
-.artigo {
-    width: 100%;
-    background-color: red;
-    margin-bottom: 30px;
+.box {
+    width: 300px;
+    height: 70px;
+    margin: 0 auto;
+    background: gray;
+    overflow-x: auto;
 }
 
-.center {
-    width: 100%;
-    max-width: 1100px;
-    background-color: gray;
-    margin: 0 auto;
-    padding: 0 2%;
+.box p {
+    width: 500px;
 }
