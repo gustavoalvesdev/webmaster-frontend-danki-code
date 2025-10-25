@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form method="POST">
+        <fieldset>
+            <legend>Meu grupo do formulário</legend>
+            <div><input type="text" name="nome" placeholder="Digite seu nome"></div>
+            <div><input type="email" name="email" placeholder="Digite seu e-mail"></div>
+            <div>
+                <select name="lista">
+                    <option disabled selected>Escolha sua linguagem de programação favorita...</option>
+                    <option value="php">PHP</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="java">Java</option>
+                    <option value="python">Python</option>
+                </select>
+            </div>
+     
+            <h2>Qual seu estado?</h2>
+            <div class="radio-input">
+                <div>
+                    <input type="radio" value="sp" name="estado"><span>São Paulo</span>
+                </div>
+                <div>
+                    <input type="radio" value="rj" name="estado"><span>Rio de Janeiro</span>
+                </div>
+                <div>
+                    <input type="radio" value="mg" name="estado"><span>Minas Gerais</span>
+                </div>
+            </div>
+
+            <h2>Quais os melhores dias da semana para você?</h2>
+            <div class="radio-input">
+                <div>
+                    <input type="checkbox" value="segunda" name="semana[]"><span>Segunda</span>
+                </div>
+                <div>
+                    <input type="checkbox" value="terca" name="semana[]"><span>Terça</span>
+                </div>
+                <div>
+                    <input type="checkbox" value="quarta" name="semana[]"><span>Quarta</span>
+                </div>
+                <div>
+                    <input type="checkbox" value="quinta" name="semana[]"><span>Quinta</span>
+                </div>
+                <div>
+                    <input type="checkbox" value="sexta" name="semana[]"><span>Sexta</span>
+                </div>
+                <div>
+                    <input type="checkbox" value="sabado" name="semana[]"><span>Sábado</span>
+                </div>
+                <div>
+                    <input type="checkbox" value="domingo" name="semana[]"><span>Domingo</span>
+                </div>
+                
+            </div>
+
+            <h2>Tem mais algo a acrescentar?</h2>
+            <div>
+                <textarea name="obs"></textarea>
+            </div>
+
+            <div>
+                <input type="submit" name="acao" value="Enviar Informações">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
