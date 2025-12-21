@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Este é um comentário no CSS */
+html, body {
+    height: 100%;
+    font-family :'Open Sans', sans-serif;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 700;
+}
